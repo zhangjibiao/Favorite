@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="shortcut icon" href="img/logo.png"  /> <!--为什么在访问的时候没有logo，在单打开时又可以-->
+
+</head>
+<body>
+    <form method="post" action="LoginServlet.do">
+        <table style="margin:0px auto" width="300px" border="1px" cellpadding="0px" cellspacing="0px">
+            <tr>
+                <td>用户名</td>
+                <td><input type="text" name="username" ></td>
+            </tr>
+
+            <tr>
+                <td>密码</td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+
+            <tr align="center">
+                <td colspan="2"><!--2列合并-->
+                    <input type="submit" value="登录">
+                </td>
+            </tr>
+
+        </table>
+
+
+    </form>
+
+</body>
+</html>
